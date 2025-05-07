@@ -1,0 +1,14 @@
+/* app/styles/page.module.css */
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  

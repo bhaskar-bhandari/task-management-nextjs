@@ -1,0 +1,17 @@
+/* app/styles/login.module.css */
+
+.wrapper {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
