@@ -19,7 +19,7 @@ app.get('/', (req, res) => res.send('Task Manager API with MongoDB'));
 
 // MongoDB connection
 mongoose
-  .connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('MongoDB connected');
   })
